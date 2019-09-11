@@ -1,0 +1,161 @@
+
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.kolom-100, .kolom-50, .kolom-25 {
+	position: relative;
+}
+
+@media (min-width: 768px) {
+
+	.kolom-100, .kolom-50, .kolom-25 {
+		float: left;
+	}
+
+	.kolom-100 {
+		width: 100%;
+	}
+
+	.kolom-50 {
+		width: 50%;
+	}
+
+	.kolom-25 {
+		width: 25%;
+	}
+
+	.beranda-kiri {
+		padding-top: 150px;
+		text-align: center;
+		color: white;
+	}
+
+	.beranda-kanan {
+		padding-top: 150px;
+		text-align: left;
+		color: white;
+	}
+
+	.line-1 {
+		border: 1px dashed white;
+		margin-right: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+
+}
+
+@media (max-width: 768px) {
+
+	.beranda-kiri {
+		padding-top: 50px;
+		text-align: center;
+		color: white;
+	}
+
+	.beranda-kanan {
+		padding-top: 25px;
+		text-align: center;
+		color: white;
+	}
+
+	.line-1 {
+		border: 1px dashed white;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.bio {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.tabel-bio{
+		margin-left: 20px;
+		text-align: left;
+	}
+
+}
+
+.beranda {
+	height: 650px;
+	width: 100%;
+	background-image: url('background.jpg');
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.overlay {
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+
+.beranda-kiri img{
+	width: 150px;
+	border-radius: 50%;
+}
+.beranda-kiri h1 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.beranda-kiri p {
+	margin: 0px;
+	color: yellow;
+}
+
+.edukasi{
+	overflow: auto;
+	min-height: 200px;
+	padding-top: 75px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 100px;
+	color: #4A4A4A;
+}
+.edukasi h2{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.box{
+	border: 0.5px solid #EAE9E9;
+	border-radius: 6px;
+	margin: 10px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	min-height: 200px;
+}
+.box:hover{
+	box-shadow: 1px 1px 3px #888888;
+}
+.box h3{
+	text-align: center;
+}
+.box p{
+	text-align: center;
+	margin: 3px;
+}
+.box hr{
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 0.5px solid #EAE9E9;
+	margin-bottom: 20px;
+}
+
+.footer {
+	text-align: center;
+	min-height: 50px;
+	background-color: #F4F3F3;
+	padding: 10px;
+}
+
